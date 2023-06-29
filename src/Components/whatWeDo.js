@@ -37,6 +37,7 @@ className="TorontoImg"
 src={require('../Images/CanadianHouseNoBackground.png')}
 alt="House Background" 
 />
+<div className="middle"></div>
 </div>
 
 <div className="WhatWeDoRight col-md-6">
@@ -59,9 +60,9 @@ alt="House Background"
 
 </div>
 
-<a href="tel:+16474252986">647-425-2986</a>
+<a className="PhoneNumber" href="tel:+16474252986">+1 (647)-425-2986</a>
 <h1 className="h1">
-        <img id="phone" src={require('../Images/icons phone.png')}
+<img id="phone" src={require('../Images/icons phone.png')}
         alt='Phone Icone' />
        Drop your Number to be Contacted!
       </h1>

@@ -8,7 +8,7 @@ import CompanyName from './Components/CompanyName';
 import Projects from './Components/Projects'
 import Toronto from './Components/TorontoBackgroundQuote';
 import WhatWeDo from './Components/whatWeDo';
-
+import Services from './Components/Services';
 function App() {
   return (
     <div>
@@ -17,6 +17,7 @@ function App() {
   <Projects />
   <Toronto />
   <WhatWeDo />
+  <Services />
   </div>
   );
 }

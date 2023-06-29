@@ -29,3 +29,26 @@ background-color: #ac2bac;
 .IconsWhatWeDo{
     width: 80px;
 }
+
+.PhoneNumber{
+
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+
+#phone {
+
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.middle{
+
+width: 100%;
+height: 40px;
+background: #e9ecef;
+
+}
