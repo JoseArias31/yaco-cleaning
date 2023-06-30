@@ -1,26 +1,62 @@
 .diagonal{
-    height: 500px;
+    height: 800px;
 }
 
 .containerServices{
 justify-content: center;
+text-decoration-line: underline;
 }
 
 .Colm1 {
 
-background: purple;
-
+background: #000C2B;
+color: white;
 }
 
-.Colm2 {
+.TextFS{
+    text-align-last: center;
+}
 
-
-    
+.FlexibleServicesList{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 35px;
 }
 
 
 .Colm3 {
+    background: #2B2E31;
+   }
 
-    background: rgb(207, 205, 207);
-    
-}
+   .listFS{
+    padding-top: 5px;
+   }
+
+@media (min-width: 800px) and (max-width: 1150px) {
+    .FlexibleServicesList {
+      font-size: 28px;
+    }
+    .listFS{
+        padding-top: 10px;
+     }
+  }
+
+
+  @media (min-width: 565px) and (max-width: 800px) {
+    .FlexibleServicesList {
+      font-size: 20px;
+    }
+    .listFS{
+
+       padding-top: 18px;
+    }
+  }
+
+  @media (max-width: 565px) {
+    .FlexibleServicesList {
+      font-size: 20px;
+    }
+    .listFS{
+        padding-top: 25px;
+     }
+  }
