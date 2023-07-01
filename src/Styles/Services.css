@@ -1,6 +1,11 @@
 @import url('https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+.descr{
+
+text-decoration: none;
+
+}
 .diagonal{
     height: 800px;
 }
@@ -137,6 +142,7 @@ li .icon {
   place-items: center;
   border-radius: var(--borderR) 0 0 0;
   position: relative;
+  
 }
 
 li .title {
@@ -159,6 +165,7 @@ li .descr::before {
   top: 100%;
   background: inherit;
   clip-path: polygon(0 0, 100% 0, 50% 100%);
+  text-decoration: none;
 }
 
 .liJanitor::after {
@@ -201,5 +208,23 @@ li .descr::before {
   filter: blur(2px);
 }
 
+.body{
+  --color: rgba(30, 30, 30);
+  --bgColor: rgba(0, 0, 0, 0.125);
+  
 
+  display: grid;
+  align-content: center;
+  gap: 2rem;
+  padding: 2rem;
 
+  font-family: "Oxygen", sans-serif;
+  color: var(--color);
+  background: var(--bgColor);
+}
+
+.row2{
+
+margin-right: 0;
+
+}

@@ -9,7 +9,7 @@ return (
 
 
   <div className="containerServices">
-  <div className="row">
+  <div className="row row2">
     <div className="col-sm-6 diagonal Colm1 listFS">
       <h1 className="TextFS">Flexible Services</h1>
       <ul className="text-lg text-md-35 FlexibleServicesList">
@@ -37,43 +37,35 @@ return (
     ></div>
   </div>
   <div className="body">
-  <h1 className="TextJanitor">OL standing cards</h1>
+  <h1 className="TextJanitor">Value Services</h1>
 <ol className="janitorBody">
   <li className="liJanitor" style={{ '--accent-color': '#0D6EFD' }}>
     <div className="icon"><i className="fa-brands fa-codepen"></i></div>
-    <div className="title">Codepen</div>
-    <div className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, impedit?</div>
+    <div className="title">Removing Rubbish</div>
+    <div className="descr"><p>Removing and disposing of waste materials and garbage from designated areas.</p></div>
   </li>
   <li className="liJanitor" style={{ '--accent-color': '#6710F5' }}>
     <div className="icon"><i className="fa-brands fa-html5"></i></div>
-    <div className="title">HTML 5</div>
-    <div className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div className="title">Dusting</div>
+    <div className="descr"><p>Cleaning surfaces and objects by removing dust using cloths or dusters.</p></div>
   </li>
   <li className="liJanitor" style={{ '--accent-color': '#6F42C1' }}>
     <div className="icon"><i className="fa-brands fa-css3"></i></div>
-    <div className="title">CSS 3</div>
-    <div className="descr">Lorem ipsum dolor sit.</div>
+    <div className="title">Vacuuming</div>
+    <div className="descr"><p> Using a vacuum cleaner to remove dirt, dust, and debris from floors, carpets, and upholstery.</p></div>
   </li>
   <li className="liJanitor" style={{ '--accent-color': '#D63384' }}>
     <div className="icon"><i className="fa-brands fa-js"></i></div>
-    <div className="title">Javascript</div>
-    <div className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor laboriosam odio alias.</div>
+    <div className="title">Ordering Supplies</div>
+    <div className="descr"><p>Placing orders for necessary cleaning and maintenance supplies to ensure availability.</p></div>
   </li>
   <li className="liJanitor" style={{ '--accent-color': '#DC3545' }}>
     <div className="icon"><i className="fa-brands fa-github"></i></div>
-    <div className="title">Github</div>
-    <div className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div className="title">Managing Staff</div>
+    <div className="descr"><p>Coordinating cleaning staff, assigning tasks, and providing guidance and support.</p></div>
   </li>
 </ol>
 </div>
-
-
-
-
-
-
-
-
 
 </div>
 
