@@ -9,6 +9,7 @@ import Projects from './Components/Projects'
 import Toronto from './Components/TorontoBackgroundQuote';
 import WhatWeDo from './Components/whatWeDo';
 import Services from './Components/Services';
+import MainForm from './Components/MainForm';
 function App() {
   return (
     <div>
@@ -18,6 +19,7 @@ function App() {
   <Toronto />
   <WhatWeDo />
   <Services />
+  <MainForm />
   </div>
   );
 }

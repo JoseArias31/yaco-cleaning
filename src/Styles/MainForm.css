@@ -1,0 +1,35 @@
+.custom-shape-divider-top-1688313123 {
+    
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1688313123 svg {
+    
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 86px;
+}
+
+.custom-shape-divider-top-1688313123 .shape-fill {
+    fill: rgba(0, 0, 0, 0.125);
+}
+
+.mainForm {
+
+width: 100%;
+
+}
+
+.MainFromH1{
+
+    text-align-last: center;
+
+}
+
+.mainFormSections{
+margin-right: 0;
+
+}
