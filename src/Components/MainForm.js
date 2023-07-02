@@ -53,8 +53,8 @@ alt="House Background"
 
   
   <div class="form-outline mb-4">
-  <label class="form-label" for="form6Example3">Company name</label>
-    <input type="text" id="form6Example3" class="form-control" />
+  <label  class="form-label" for="form6Example3">Country</label>
+    <input type="text" value="Canada" id="form6Example3" class="form-control" />
     
   </div>
 
@@ -64,6 +64,19 @@ alt="House Background"
     <input type="text" id="form6Example4" class="form-control" />
    
   </div>
+
+  
+  <div class="form-outline mb-4">
+  <label class="form-label" for="form6Example6">Number of Floors</label>
+    <input type="number" id="form6Example6" class="form-control" />
+    
+  </div>
+
+  <div class="form-outline">
+      <label class="form-label" for="form6Example2">Area M2(Aprox)</label>
+        <input type="text" id="form6Example2" class="form-control" />
+        
+      </div>
 
   
   <div class="form-outline mb-4">
