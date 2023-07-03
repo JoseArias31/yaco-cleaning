@@ -19,7 +19,7 @@ return(
 <div className="mainFormSections row">
 
 
-<div className="col-md-6">
+<div className="col-md-6 imagToronto">
 
 <img 
 className="TorontoImg"
@@ -37,8 +37,8 @@ alt="House Background"
   <h1 className="MainFromH1">Contact Us!</h1>
     <div class="col">
       <div class="form-outline">
-      <label class="form-label" for="form6Example1">First name</label>
-        <input type="text" id="form6Example1" class="form-control" />
+      <label class="form-label" for="form6Example1">First name*</label>
+        <input type="text" id="form6Example1" class="form-control" required/>
         
       </div>
     </div>
@@ -60,8 +60,8 @@ alt="House Background"
 
   
   <div class="form-outline mb-4">
-  <label class="form-label" for="form6Example4">Address</label>
-    <input type="text" id="form6Example4" class="form-control" />
+  <label class="form-label" for="form6Example4">Address*</label>
+    <input type="text" id="form6Example4" class="form-control" required/>
    
   </div>
 
@@ -80,14 +80,14 @@ alt="House Background"
 
   
   <div class="form-outline mb-4">
-  <label class="form-label" for="form6Example5">Email</label>
-    <input type="email" id="form6Example5" class="form-control" />
+  <label class="form-label" for="form6Example5">Email Address*</label>
+    <input type="email" id="form6Example5" class="form-control" required/>
     
   </div>
 
  
   <div class="form-outline mb-4">
-  <label class="form-label" for="form6Example6">Phone</label>
+  <label class="form-label" for="form6Example6">Phone Number</label>
     <input type="number" id="form6Example6" class="form-control" />
     
   </div>
@@ -99,14 +99,26 @@ alt="House Background"
     
   </div>
 
-  
+  <div className="checkboxServices">
   <div class="form-check d-flex justify-content-center mb-4">
-    <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" checked />
-    <label class="form-check-label" for="form6Example8"> Create an account? </label>
+    <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" />
+    <label class="form-check-label" for="form6Example8">House</label>
   </div>
 
-  
-  <button type="submit" class="btn btn-primary btn-block mb-4">Place order</button>
+  <div class="form-check d-flex justify-content-center mb-4">
+    <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8"  />
+    <label class="form-check-label" for="form6Example8">Office</label>  
+  </div>
+
+  <div class="form-check d-flex justify-content-center mb-4">
+    <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8"  />
+    <label class="form-check-label" for="form6Example8">Post-Construction</label>
+  </div>
+  </div>
+
+  <div className="submitBottonMainContainer">
+  <button type="submit" class="btn btn-primary btn-block mb-4 submitBottonMain">Place order</button>
+  </div>
 </form>
 </div>
 </div>

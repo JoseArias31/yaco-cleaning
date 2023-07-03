@@ -20,13 +20,14 @@
 .mainForm {
 
 width: 100%;
+padding: 0 80px 0 80px;
 
 }
 
 .MainFromH1{
 
     text-align-last: center;
-
+font-size: 45px;
 }
 
 .mainFormSections{
@@ -36,5 +37,45 @@ margin-right: 0;
 
 .form-control {
 
-    border: 1px solid black;
+    border: 2px solid black;
+}
+
+.checkboxServices{
+
+display: flex;
+flex-direction: row;
+justify-content:space-evenly;
+align-items: center;
+}
+
+.form-check-input{
+
+border: 2px solid black;
+
+}
+
+.imagToronto{
+
+   padding-right: 0;
+
+}
+
+.form-label{
+
+font-size: 20px;
+
+}
+
+.submitBottonMain{
+
+height: 80px;
+width: 280px;
+font-size: 25px;
+
+}
+
+.submitBottonMainContainer {
+
+    text-align-last:center;
+    margin-top: 10px;
 }

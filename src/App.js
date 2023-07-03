@@ -10,6 +10,7 @@ import Toronto from './Components/TorontoBackgroundQuote';
 import WhatWeDo from './Components/whatWeDo';
 import Services from './Components/Services';
 import MainForm from './Components/MainForm';
+import Footer from './Components/Footer';
 function App() {
   return (
     <div>
@@ -20,6 +21,7 @@ function App() {
   <WhatWeDo />
   <Services />
   <MainForm />
+  <Footer />
   </div>
   );
 }
