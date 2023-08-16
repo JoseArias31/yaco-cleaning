@@ -9,19 +9,23 @@ background-color: #ac2bac;
 
     align-self: center;
     text-align-last: center;
-    height: 100%;
+
     padding: 0;
     margin: 0;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .CleaningImg {
-
+    align-self: center;
     width: 50%;
 }
 
 #CompanyDescription{
 
-    font-size: 2.1em;
+    font-size: 1.5em;
     padding: 20px;
     text-align: -webkit-center;
 }

@@ -29,3 +29,7 @@ padding: 30px;
 
     width: 100%;
 }
+
+.py-4 {
+    padding-bottom: 0!important;
+  }
