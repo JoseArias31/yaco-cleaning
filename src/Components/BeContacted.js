@@ -5,7 +5,7 @@ import '../Styles/BeContacted.css'
 
 
 function BeContactedForm() {
-    const { register, handleSubmit } = useForm();
+    const { register, handleSubmit } = useForm("");
     const [data, setData] = useState("");
   
     return (

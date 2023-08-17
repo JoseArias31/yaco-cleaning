@@ -32,7 +32,7 @@ alt="House Background"
 />
 
 <div className="SocialIcons">
-<a href="URL" target="_blank" rel="noopener noreferrer">
+<a href="https://instagram.com/gojosearias?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
 <img alt="siguenos en instagram" height="60" width="60" src={require('../Images/instagram.png')} title="siguenos en instagram" /></a>
 
 <a href="https://wa.me/16474252986" target="_blank" rel="noopener noreferrer">

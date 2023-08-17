@@ -228,3 +228,6 @@ li .descr::before {
 margin-right: 0;
 
 }
+.TextJanitor {
+  text-decoration: none !important;
+}

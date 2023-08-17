@@ -6,9 +6,9 @@ function CompanyName() {
     return(
 
 
-<div className="bgimg">
+<div className="bgimg" id="home">
       <div className="w3-display-topleft w3-padding-large w3-xlarge">
-        Logo
+       <br />
       </div>
       <div className="w3-display-middle companyNameContainer">
         <h1 className="w3-jumbo w3-animate-top">YACO CLEANING</h1>
