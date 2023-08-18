@@ -8,7 +8,7 @@ return(
 <div className="TorontoContainer">
 
 <img 
-className="TorontoImg"
+className="TorontoImgMain"
 src={require('../Images/Toronto-Background.png')}
 alt="Toronto Background" 
 />

@@ -84,18 +84,6 @@ alt="House Background"
   </div>
 
   
-  <div className="form-outline mb-4">
-  <label className="form-label" for="form6Example6">Number of Floors</label>
-    <input type="number" id="form6Example6" className="form-control" />
-    
-  </div>
-
-  <div className="form-outline">
-      <label className="form-label" for="form6Example2">Area M2(Aprox)</label>
-        <input type="text" id="form6Example2" className="form-control" />
-        
-      </div>
-
   
   <div className="form-outline mb-4">
   <label className="form-label" for="form6Example5">Email Address*</label>

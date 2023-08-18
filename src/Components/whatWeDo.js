@@ -2,6 +2,7 @@ import React from "react";
 import '../Styles/whatWeDo.css'
 import BeContactedForm from "./BeContacted";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ImgHover from "./CleaningImg";
 
 function WhatWeDo(){
 return (
@@ -15,23 +16,16 @@ We are a professional cleaning company based in Toronto, providing top-notch cle
 </p>
 
 <div className="WhatWeDoLeftbottom">
-<img 
-className="TorontoImg"
-src={require('../Images/CanadianHouseNoBackground.png')}
-alt="House Background" 
-/>
+<ImgHover />
 <div className="middle"></div>
 </div>
 </div>
 <div className="WhatWeDoRight col-md-6">
+<div className="ContainerCleaningImg
+">
 
-<img 
-className="CleaningImg"
-src={require('../Images/Cleaning Supply.jpg')}
-alt="House Background" 
-/>
-
-<div className="SocialIcons">
+</div>
+{/* <div className="SocialIcons">
 <a href="https://instagram.com/gojosearias?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
 <img alt="siguenos en instagram" height="60" width="60" src={require('../Images/instagram.png')} title="siguenos en instagram" /></a>
 
@@ -41,9 +35,9 @@ alt="House Background"
 <a href="mailto:gojosearias@gmail.com" target="_blank" rel="noopener noreferrer">
 <img alt="Email Us" height="60" width="60" src={require('../Images/mail.png')} title="siguenos en whatsapp" /></a>
 
-</div>
+</div> */}
 
-<a className="PhoneNumber" href="tel:+16474252986">+1 (647)-425-2986</a>
+
 <h1 className="h1">
 <img id="phone" src={require('../Images/icons phone.png')}
         alt='Phone Icone' />

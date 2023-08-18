@@ -74,3 +74,10 @@ background: #e9ecef;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease;
 }
+
+.ContainerCleaningImg{
+
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
