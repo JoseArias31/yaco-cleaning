@@ -2,7 +2,7 @@
 
 :root {
   --src: url(https://images.unsplash.com/photo-1554620121-59e7f3f6e3a4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy);
-  --size: 45vmin;
+  --size: 50vmin;
   --space: 8vmin;
   --duration: 300ms;
   --ease-out: cubic-bezier(0.25, 1, 0.5, 1);
@@ -13,8 +13,23 @@
   box-sizing: border-box;
 }
 
+.commonninja-ribbon-link {
 
+  content: none!important;
+border: solid 1px white;
+color: white;
+}
 
+span{
+
+  color: white!important;
+}
+
+.commonninja-ribbon-link.img {
+  
+display: none!important;
+
+}
 .promo {
   position: relative;
   cursor: pointer;
@@ -28,8 +43,8 @@
   display: flex;
   align-items: center;
   position: absolute;
-  left: 0;
-  bottom: -35px;
+  left: 62px;
+  bottom: -72px;
   font-size: var(--font-size);
   font-weight: 700;
   line-height: 1.2;

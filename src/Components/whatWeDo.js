@@ -17,7 +17,7 @@ We are a professional cleaning company based in Toronto, providing top-notch cle
 
 <div className="WhatWeDoLeftbottom">
 <ImgHover />
-<div className="middle"></div>
+
 </div>
 </div>
 <div className="WhatWeDoRight col-md-6">
