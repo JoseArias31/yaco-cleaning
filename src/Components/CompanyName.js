@@ -16,6 +16,7 @@ function CompanyName() {
         <p className="w3-large w3-center">Best Toronto Cleaning Service</p>
       </div>
     </div>
+    
   );
 };
 
