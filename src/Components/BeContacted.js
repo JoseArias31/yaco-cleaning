@@ -1,26 +1,59 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import '../Styles/BeContacted.css'
 
 
 function BeContactedForm() {
-    const { register, handleSubmit } = useForm();
-    const [data, setData] = useState("");
+    const { register } = useForm("");
+const [userName, setUserName] = useState("")
+const [number, setNumber] = useState("")
+ const [formSelected, SetFormSelected] = useState("")
+
+const handleInputChangeNames = (event, setState) => {
+  const inputValueRegexName = /^[A-Za-z\s\-']+$/;
+  const { value } = event.target;
+
+  if (inputValueRegexName.test(value) || value === '') {
+    setState(value);
+  }
+};
+    
+const handleInputChangeNumbers = (event, setState) => {
+  const inputValueRegexNum = /^[0-9]*$/;
+  const { value } = event.target;
   
+  if (inputValueRegexNum.test(value)) {
+    setState(value);
+  }
+};
+
+const handleSubmit = (event) => {
+  event.preventDefault();
+    if( userName === "" || number === "" || formSelected !== house || formSelected !== office || formSelected !== post){
+alert("Please complete the full information before continuing")
+      }else{
+    alert("Thank you! An agent will contact you ASAP")
+      } 
+setUserName("")
+setNumber("")
+SetFormSelected("")
+    }
+  const house = "A"
+  const office = "B"
+  const post = "C"
     return (
      
      <div className="formContainer">
-     <form onSubmit={handleSubmit((data) => setData(JSON.stringify(data)))}>
-        <input className="BorderForm" {...register("firstName")} placeholder="First name" />
-        <select className="BorderForm" {...register("category", { required: true })}>
-          <option value="">Choose Project...</option>
-          <option value="A">Houses</option>
-          <option value="B">Buildings-Offices</option>
-          <option value="C">Post-Construction</option>
+     <form onSubmit={handleSubmit}>
+        <input value={userName} onChange={(event) => handleInputChangeNames(event, setUserName)} className="BorderForm"  placeholder="First name" />
+        <select onChange={(e) => SetFormSelected(e.target.value)}  className="BorderForm" {...register("category", { required: true })}>
+          <option value={""}>Choose Project...</option>
+          <option value={house}>Houses</option>
+          <option value={office}>Buildings-Offices</option>
+          <option value={post}>Post-Construction</option>
         </select>
-        <input className="BorderForm" type="number" {...register("YourNumber")} placeholder="Your Number" />
-        <p>{data}</p>
+        <input value={number} onChange={(e) => handleInputChangeNumbers(e, setNumber)} className="BorderForm"  placeholder="Your Number" />
+       
         <input type="submit" />
       </form>
       </div>

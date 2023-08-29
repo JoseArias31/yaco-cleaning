@@ -6,15 +6,15 @@ function Toronto(){
 
 return(
 <div className="TorontoContainer">
-
+<div className="BotonQuoute">
+<a href="#contactUs"><Button id="Quote" variant="dark">Start a Quote!</Button></a>
+</div>
 <img 
-className="TorontoImg"
+className="TorontoImgMain"
 src={require('../Images/Toronto-Background.png')}
 alt="Toronto Background" 
 />
-<div className="BotonQuoute">
-<Button id="Quote" variant="dark">Start a Quote!</Button>
-</div>
+
 </div>
 
 

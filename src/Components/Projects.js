@@ -9,7 +9,7 @@ return(
     
  
 
-  <div className="carousel-inner py-4">
+  <div id='projects' className="carousel-inner py-4">
     
    
       <div className="container">
@@ -22,12 +22,11 @@ return(
                 alt="Waterfall"
               />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Houses</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up the bulk
-                  of the card's content.
+                House cleaning encompasses comprehensive maintenance in residential spaces included basements and backyards.It involves tasks like dusting, vacuuming, mopping floors, cleaning windows, sanitizing surfaces, and organizing living areas. Beyond these, aiming to establish hygienic environment that ensures the well-being of residents.
                 </p>
-                <a href="#!" className="btn btn-primary">Houses</a>
+                <a href="#!" className="btn btn-primary">Projects</a>
               </div>
             </div>
           </div>
@@ -40,12 +39,11 @@ return(
                 alt="Sunset Over the Sea"
               />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Offices-Buildings</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up the bulk
-                  of the card's content.
+                Office cleaning maintains an organized workspace in commercial settings. It includes tidying desks, equipment, common areas, and break rooms. The scope extends to cleaning bathrooms, garbage removal, and thorough carpet vacuuming. This fosters a professional, inviting atmosphere and promotes a healthy work environment for all.
                 </p>
-                <a href="#!" className="btn btn-primary">Buildings-Offices</a>
+                <a href="#!" className="btn btn-primary">Projects</a>
               </div>
             </div>
           </div>
@@ -58,12 +56,11 @@ return(
                 alt="Sunset over the Sea"
               />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Post-Construction</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up the bulk
-                  of the card's content.
+                Post-construction cleaning is the meticulous process of removing debris, dust, and residue left behind after construction or renovation projects. This specialized cleaning involves cleaning surfaces, windows, and fixtures, as well as removing construction materials. Post-construction cleaning restores the site to a safe and presentable condition for occupancy.
                 </p>
-                <a href="#!" className="btn btn-primary">Post-Construction</a>
+                <a href="#!" className="btn btn-primary">Projects</a>
               </div>
             </div>
           </div>

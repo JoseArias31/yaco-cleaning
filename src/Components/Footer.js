@@ -9,11 +9,12 @@ return(
                 <div className="me-5">
                   <span>Get connected with us on social networks:</span>
                 </div>
+                                                 
                 <div>
-                  <a href="" className="text-white me-4">
+                  <a href="mailto:gojosearias@gmail.com" target="_blank" rel="noopener noreferrer" className="text-white me-4">
                     <i className="fab fa-google"></i>
                   </a>
-                  <a href="" className="text-white me-4">
+                  <a href="https://instagram.com/gojosearias?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer" className="text-white me-4">
                     <i className="fab fa-instagram"></i>
                   </a>
                 </div>
@@ -23,11 +24,10 @@ return(
                 <div className="container text-center text-md-start mt-5">
                   <div className="row mt-3">
                     <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                      <h6 className="text-uppercase fw-bold">Company name</h6>
+                      <h6 className="text-uppercase fw-bold">Yaco Cleaning</h6>
                       <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px", backgroundColor: "#7c4dff", height: "2px" }} />
                       <p>
-                        Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit.
+                      We are a well-established cleaning company located in Toronto, offering exceptional cleaning solutions for homes, offices, and post-construction sites. Our services cater to both residential and commercial spaces, ensuring pristine cleanliness across Toronto and throughout Canada.
                       </p>
                     </div>
       
@@ -35,17 +35,15 @@ return(
                       <h6 className="text-uppercase fw-bold">Products</h6>
                       <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px", backgroundColor: "#7c4dff", height: "2px" }} />
                       <p>
-                        <a href="#!" className="text-white">MDBootstrap</a>
+                        <a href="#!" className="text-white">Houses</a>
                       </p>
                       <p>
-                        <a href="#!" className="text-white">MDWordPress</a>
+                        <a href="#!" className="text-white">Offices</a>
                       </p>
                       <p>
-                        <a href="#!" className="text-white">BrandFlow</a>
+                        <a href="#!" className="text-white">Post-Construction</a>
                       </p>
-                      <p>
-                        <a href="#!" className="text-white">Bootstrap Angular</a>
-                      </p>
+                     
                     </div>
       
                     <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -53,15 +51,15 @@ return(
                       <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px", backgroundColor: "#7c4dff", height: "2px" }} />
                       <p><i className="fas fa-home mr-3"></i> Toronto, ON.</p>
                       <p><i className="fas fa-envelope mr-3"></i> gojosearias@gmail.com</p>
-                      <p><i className="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                      <p><i className="fas fa-phone mr-3"></i> +1 647-425-2986</p>
                     </div>
                   </div>
                 </div>
               </section>
       
               <div className="text-center p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
-                © 2023 Derechos de autor
-                <a className="text-white" href="https://mdbootstrap.com/">de</a>
+                ©CopyRigths 2023 Yaco Cleaning Powered by  
+                <a className="text-white" target="_blank" rel="noopener noreferrer" href="https://josearias31.github.io/Portfolio-2023/"> Jose Arias</a>
               </div>
             </footer>
           </div>

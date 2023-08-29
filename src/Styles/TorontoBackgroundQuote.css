@@ -27,5 +27,18 @@ padding: 30px;
 
 .TorontoImg{
 
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    
+}
+
+.TorontoImgMain{
+
     width: 100%;
 }
+
+.py-4 {
+    padding-bottom: 0!important;
+  }
