@@ -10,6 +10,12 @@ text-decoration: none;
   overflow: hidden;
 }
 
+.containerList {
+
+width: 100%;
+
+}
+
 .live li {
   list-style: none;
   position: relative;

@@ -31,7 +31,7 @@ We are a professional cleaning company based in Toronto, providing top-notch cle
 </div>
 
     
-<div className="container">
+<div className="containerList">
       <div className="row">
         <div className="col-md-6">
           {showList ? (
@@ -65,15 +65,11 @@ We are a professional cleaning company based in Toronto, providing top-notch cle
         </div>
       </div>
     </div>
- 
-
   
 
   </div>
 
-  
-
-  
+    
   <div
     className="col-sm-6 diagonal Colm2 mi-componente"
     style={{
@@ -86,10 +82,6 @@ We are a professional cleaning company based in Toronto, providing top-notch cle
   >
    
   </div>
-
-
-
-
 
 </div>
 
