@@ -7,7 +7,7 @@ function BeContactedForm() {
     const { register } = useForm("");
 const [userName, setUserName] = useState("")
 const [number, setNumber] = useState("")
- const [formSelected, SetFormSelected] = useState("")
+
 
 const handleInputChangeNames = (event, setState) => {
   const inputValueRegexName = /^[A-Za-z\s\-']+$/;
@@ -29,14 +29,14 @@ const handleInputChangeNumbers = (event, setState) => {
 
 const handleSubmit = (event) => {
   event.preventDefault();
-    if( userName === "" || number === "" || formSelected !== house || formSelected !== office || formSelected !== post){
+    if( userName === "" || number === ""){
 alert("Please complete the full information before continuing")
       }else{
     alert("Thank you! An agent will contact you ASAP")
       } 
 setUserName("")
 setNumber("")
-SetFormSelected("")
+
     }
   const house = "A"
   const office = "B"
@@ -46,7 +46,7 @@ SetFormSelected("")
      <div className="formContainer">
      <form onSubmit={handleSubmit}>
         <input value={userName} onChange={(event) => handleInputChangeNames(event, setUserName)} className="BorderForm"  placeholder="First name" />
-        <select onChange={(e) => SetFormSelected(e.target.value)}  className="BorderForm" {...register("category", { required: true })}>
+        <select   className="BorderForm" {...register("category", { required: true })}>
           <option value={""}>Choose Project...</option>
           <option value={house}>Houses</option>
           <option value={office}>Buildings-Offices</option>

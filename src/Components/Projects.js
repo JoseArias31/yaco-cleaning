@@ -17,7 +17,7 @@ return(
           <div className="col-md-4 col-sm-6">
             <div className="card">
               <img
-                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp"
+                src="https://www.vmcdn.ca/f/files/glaciermedia/import/lmp-all/1343904-life-maid-easy-image.jpg;w=960"
                 className="card-img-top"
                 alt="Waterfall"
               />
@@ -26,7 +26,7 @@ return(
                 <p className="card-text">
                 House cleaning encompasses comprehensive maintenance in residential spaces included basements and backyards.It involves tasks like dusting, vacuuming, mopping floors, cleaning windows, sanitizing surfaces, and organizing living areas. Beyond these, aiming to establish hygienic environment that ensures the well-being of residents.
                 </p>
-                <a href="#!" className="btn btn-primary">Projects</a>
+                <a href="#!" className="btn btn-primary">Book</a>
               </div>
             </div>
           </div>
@@ -34,7 +34,7 @@ return(
           <div className="col-md-4 col-sm-6">
             <div className="card">
               <img
-                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp"
+                src="https://allegianceclean.com/wp-content/uploads/2020/09/clean-office.jpg.webp"
                 className="card-img-top"
                 alt="Sunset Over the Sea"
               />
@@ -43,7 +43,7 @@ return(
                 <p className="card-text">
                 Office cleaning maintains an organized workspace in commercial settings. It includes tidying desks, equipment, common areas, and break rooms. The scope extends to cleaning bathrooms, garbage removal, and thorough carpet vacuuming. This fosters a professional, inviting atmosphere and promotes a healthy work environment for all.
                 </p>
-                <a href="#!" className="btn btn-primary">Projects</a>
+                <a href="#!" className="btn btn-primary">Book</a>
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ return(
           <div className="col-md-4 col-sm-6">
             <div className="card">
               <img
-                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/183.webp"
+                src="https://zimickbrotherscleaning.com/wp-content/uploads/2021/06/construction.png"
                 className="card-img-top"
                 alt="Sunset over the Sea"
               />
@@ -60,7 +60,7 @@ return(
                 <p className="card-text">
                 Post-construction cleaning is the meticulous process of removing debris, dust, and residue left behind after construction or renovation projects. This specialized cleaning involves cleaning surfaces, windows, and fixtures, as well as removing construction materials. Post-construction cleaning restores the site to a safe and presentable condition for occupancy.
                 </p>
-                <a href="#!" className="btn btn-primary">Projects</a>
+                <a href="#!" className="btn btn-primary">Book</a>
               </div>
             </div>
           </div>

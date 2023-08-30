@@ -18,6 +18,15 @@ background-color: #ac2bac;
     justify-content: space-between;
 }
 
+
+.WhatWeDoRight {
+
+    background: #808080c4;
+   
+    height: 330px;
+}
+
+
 .CleaningImg {
     align-self: center;
     width: 50%;
@@ -56,10 +65,15 @@ height: 40px;
 background: #e9ecef;
 
 }
-
+.Colm1 {
+   background: rgb(25 33 46 / 88%)!important; 
+}
 .WhatWeDoContainer{
 
     margin-right: 0;
+    background-image: url('../Images/Offices.jpg');
+    background-size: cover;
+    
 }
 
 .WhatWeDoIcons{

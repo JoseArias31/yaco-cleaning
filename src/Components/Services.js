@@ -8,40 +8,50 @@ function Services(){
 return (
 
 
-  <div id="services" className="containerServices">
+  <div className="howItWorksContainer">
 
 
- 
-
-  <div className="body">
-  <h1 className="TextJanitor">Value Services</h1>
-<ol className="janitorBody">
-  <li className="liJanitor" style={{ '--accent-color': '#0D6EFD' }}>
-    <div className="icon"><i className="fa-brands fa-codepen"></i></div>
-    <div className="title">Removing Rubbish</div>
-    <div className="descr"><p>Removing and disposing of waste materials and garbage from designated areas.</p></div>
-  </li>
-  <li className="liJanitor" style={{ '--accent-color': '#6710F5' }}>
-    <div className="icon"><i className="fa-brands fa-html5"></i></div>
-    <div className="title">Dusting</div>
-    <div className="descr"><p>Cleaning surfaces and objects by removing dust using cloths or dusters.</p></div>
-  </li>
-  <li className="liJanitor" style={{ '--accent-color': '#6F42C1' }}>
-    <div className="icon"><i className="fa-brands fa-css3"></i></div>
-    <div className="title">Vacuuming</div>
-    <div className="descr"><p> Using a vacuum cleaner to remove dirt, dust, and debris from floors, carpets, and upholstery.</p></div>
-  </li>
-  <li className="liJanitor" style={{ '--accent-color': '#D63384' }}>
-    <div className="icon"><i className="fa-brands fa-js"></i></div>
-    <div className="title">Ordering Supplies</div>
-    <div className="descr"><p>Placing orders for necessary cleaning and maintenance supplies to ensure availability.</p></div>
-  </li>
-  <li className="liJanitor" style={{ '--accent-color': '#DC3545' }}>
-    <div className="icon"><i className="fa-brands fa-github"></i></div>
-    <div className="title">Managing Staff</div>
-    <div className="descr"><p>Coordinating cleaning staff, assigning tasks, and providing guidance and support.</p></div>
-  </li>
-</ol>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="text-center">How it works</h2>
+    </div>
+  </div>
+  
+  <div class="row mt-4">
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Choose a Project</h5>
+          <p class="card-text">Browse through our collection of exciting projects and choose the one that interests you.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Book</h5>
+          <p class="card-text">Book your spot in the chosen project and secure your place in the experience of a lifetime.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Schedule</h5>
+          <p class="card-text">Coordinate with our team to schedule the project dates that fit your availability.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Enjoy</h5>
+          <p class="card-text">Participate in the project, have a great time, and create wonderful memories.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 </div>
