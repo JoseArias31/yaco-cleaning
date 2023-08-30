@@ -17,8 +17,9 @@
     color: rgb(0, 0, 0);
     font-size: 25px;
     padding-bottom: 0px;
-    background: #808080c4;
-    /* width: 92%; */
+    background: #80808012;
+    text-align-last: center;
+
     padding: 11px;
     margin: 0;
   }
@@ -33,7 +34,7 @@
 
     
     border-radius: 7px;
-    width: 50%;
+    width: 40%;
   }
   
   
@@ -114,7 +115,7 @@
 
   .formContainer {
     text-align: -webkit-center;
-    background: #808080c4;
+    
     padding: 50px;
 }
   

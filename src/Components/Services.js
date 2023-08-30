@@ -8,54 +8,48 @@ function Services(){
 return (
 
 
-  <div className="howItWorksContainer">
+  <section class="features-icons bg-light text-center services">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-4">
+              <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                  <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
+                  <img 
 
+                  src={require('../Images/choose.png')}
+                  alt="Toronto Background" 
+                  />
+                  <h3>Choose a Project</h3>
+                  <p class="lead mb-0">Browse and Pick your Cleaning Project.</p>
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                  <div class="features-icons-icon d-flex"><i class="bi-layers m-auto text-primary"></i></div>
+                  <img 
 
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-md-12">
-      <h2 class="text-center">How it works</h2>
-    </div>
+                  src={require('../Images/appointment.png')}
+                  alt="Toronto Background" 
+                  />
+                  <h3>Book</h3>
+                  <p class="lead mb-0">Secure your Spot with a Quick Booking.</p>
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                  <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-primary"></i></div>
+                  <img 
+
+                  src={require('../Images/schedule.png')}
+                  alt="Toronto Background" 
+                  />
+                  <h3>Schedule</h3>
+                  <p class="lead mb-0">Tailor the Schedule to Suit You.</p>
+              </div>
+          </div>
+      </div>
   </div>
-  
-  <div class="row mt-4">
-    <div class="col-md-3">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Choose a Project</h5>
-          <p class="card-text">Browse through our collection of exciting projects and choose the one that interests you.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Book</h5>
-          <p class="card-text">Book your spot in the chosen project and secure your place in the experience of a lifetime.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Schedule</h5>
-          <p class="card-text">Coordinate with our team to schedule the project dates that fit your availability.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Enjoy</h5>
-          <p class="card-text">Participate in the project, have a great time, and create wonderful memories.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-</div>
-
+</section>
 )
 
 

@@ -1,22 +1,54 @@
 import React from "react";
 import '../Styles/TorontoBackgroundQuote.css'
-import Button from 'react-bootstrap/Button';
+
 
 function Toronto(){
 
 return(
-<div className="TorontoContainer">
-<div className="BotonQuoute">
-<a href="#contactUs"><Button id="Quote" variant="dark">Start a Quote!</Button></a>
-</div>
-<img 
-className="TorontoImgMain"
-src={require('../Images/Toronto-Background.png')}
-alt="Toronto Background" 
-/>
+<div class="row">
+    <h1 className="cleaningGalery">Cleaning Galery</h1>
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <img
+      src="https://cdntrust.s3.us-east-2.amazonaws.com/images/901ec604-0abd-4fdd-939b-ef6f6a29e0d0.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
 
-</div>
+    <img
+      src="https://design-middleeast.com/wp-content/uploads/2020/09/59644-preview_low_1513-6_59644_sc_v2com.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Wintry Mountain Landscape"
+    />
+  </div>
 
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="https://atlasjanitorialservices.com/wp-content/uploads/2020/10/Post-Construction-Cleaning-Services.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Mountains in the Clouds"
+    />
+
+    <img
+      src="https://images.inc.com/uploaded_files/image/1920x1080/getty_1016519222_413902.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="https://onthespotcleannj.com/wp-content/uploads/2023/06/bigstock-Woman-Cleans-Floor-With-Wet-Mo-476297925-768x512.jpeg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Waves at Sea"
+    />
+
+    <img
+      src="https://onthespotcleannj.com/wp-content/uploads/2023/06/bigstock-Young-Woman-Cleaning-Computer-456951461.jpeg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Yosemite National Park"
+    />
+  </div>
+</div>
 
 );
 

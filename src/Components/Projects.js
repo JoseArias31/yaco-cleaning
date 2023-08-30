@@ -11,7 +11,12 @@ return(
 
   <div id='projects' className="carousel-inner py-4">
     
-   
+    <div>
+  <h1 className="TextFS">Flexible Services</h1>
+<p id="CompanyDescription">
+We are a professional cleaning company based in Toronto, providing top-notch cleaning services for residential homes, commercial offices and post-construction sites
+</p>
+</div>
       <div className="container">
         <div className="row">
           <div className="col-md-4 col-sm-6">
