@@ -6,7 +6,7 @@ function Toronto(){
 
 return(
 <div class="row">
-    <h1 className="cleaningGalery">Cleaning Galery</h1>
+    <h1 className="cleaningGalery" id="gallery">Cleaning Galery</h1>
   <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
     <img
       src="https://cdntrust.s3.us-east-2.amazonaws.com/images/901ec604-0abd-4fdd-939b-ef6f6a29e0d0.jpg"
