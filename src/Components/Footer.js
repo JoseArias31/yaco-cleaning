@@ -35,13 +35,13 @@ return(
                       <h6 className="text-uppercase fw-bold">Products</h6>
                       <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px", backgroundColor: "#7c4dff", height: "2px" }} />
                       <p>
-                        <a href="#!" className="text-white">Houses</a>
+                        <a href="#projects" className="text-white">Houses</a>
                       </p>
                       <p>
-                        <a href="#!" className="text-white">Offices</a>
+                        <a href="#projects" className="text-white">Offices</a>
                       </p>
                       <p>
-                        <a href="#!" className="text-white">Post-Construction</a>
+                        <a href="#projects" className="text-white">Post-Construction</a>
                       </p>
                      
                     </div>

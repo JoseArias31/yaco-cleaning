@@ -48,7 +48,7 @@ alt="House Background"
 </div>
 
 
-<div className="col-md-6">
+<div className="col-md-6"  id="mainForm">
 <form className="mainForm">
   
   <div className="row mb-4">
